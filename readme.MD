@@ -1,7 +1,8 @@
-#First Brigade Test Run
+# First Brigade Test Run
 ## Get Facts
 
-##Summary
+## Summary
+
 First test with Brigade.
 
 This was my first use of Brigade.  I started out with the sample get facts run_brigade.py script from from [Patrick Ogenstad at Networklore].(https://networklore.com/introducing-brigade/)
@@ -10,7 +11,7 @@ The first_brigade.py script is my attempt to decompose the objects and resulting
 
 My next Sunday afternoon project will involve generating configurations and applying them.
 
-##Code Example
+## Code Example
 
 groups.yaml
 
@@ -30,4 +31,6 @@ hosts.yaml
         arctic-ds01-as01:
           brigade_host: 10.1.10.26
           groups: ['uwaco_network']
+
+
 
