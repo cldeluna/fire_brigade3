@@ -5,7 +5,7 @@
 
 First test with Brigade.
 
-This was my first use of Brigade.  I started out with the sample get facts run_brigade.py script from from [Patrick Ogenstad at Networklore].(https://networklore.com/introducing-brigade/)
+This was my first use of Brigade.  I started out with the sample get facts run_brigade.py script from from [Patrick Ogenstad at Networklore.](https://networklore.com/introducing-brigade/)
 
 The first_brigade.py script is my attempt to decompose the objects and resulting data structures.
 
