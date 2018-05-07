@@ -183,3 +183,94 @@ vvvv napalm_get ** changed : False vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
 (fire-brigade3) Claudias-iMac:fire-brigade3 claudia$
 
 ```
+
+Windows 10 Output in PyCharm which does not render the color codes.
+
+```
+(fire-brigade3) D:\Dropbox (Indigo Wire Networks)\scripts\brigade\fire-brigade3>python run_brigade.py
+?[1m?[36mnapalm_get**********************************************************************?[0m
+?[0m?[1m?[34m* arctic-ds01-as01 ** changed : False ******************************************?[0m
+?[0m?[1m?[32mvvvv napalm_get ** changed : False vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv INFO?[0m
+?[0m{?[0m ?[0m'get_facts'?[0m: ?[0m{?[0m ?[0m'fqdn'?[0m: ?[0m'artic-sw01.uwaco.net'?[0m,
+                 ?[0m'hostname'?[0m: ?[0m'artic-sw01'?[0m,
+                 ?[0m'interface_list'?[0m: ?[0m[?[0m ?[0m?[0m'Vlan1'?[0m,
+                                     ?[0m'FastEthernet0'?[0m,
+                                     ?[0m'GigabitEthernet0/1'?[0m,
+                                     ?[0m'GigabitEthernet0/2'?[0m,
+                                     ?[0m'GigabitEthernet0/3'?[0m,
+                                     ?[0m'GigabitEthernet0/4'?[0m,
+                                     ?[0m'GigabitEthernet0/5'?[0m,
+                                     ?[0m'GigabitEthernet0/6'?[0m,
+                                     ?[0m'GigabitEthernet0/7'?[0m,
+                                     ?[0m'GigabitEthernet0/8'?[0m,
+                                     ?[0m'GigabitEthernet0/9'?[0m,
+                                     ?[0m'GigabitEthernet0/10'?[0m,
+                                     ?[0m'GigabitEthernet0/11'?[0m,
+                                     ?[0m'GigabitEthernet0/12'?[0m,
+                                     ?[0m'GigabitEthernet0/13'?[0m,
+                                     ?[0m'GigabitEthernet0/14'?[0m,
+                                     ?[0m'GigabitEthernet0/15'?[0m,
+                                     ?[0m'GigabitEthernet0/16'?[0m,
+                                     ?[0m'GigabitEthernet0/17'?[0m,
+                                     ?[0m'GigabitEthernet0/18'?[0m,
+                                     ?[0m'GigabitEthernet0/19'?[0m,
+                                     ?[0m'GigabitEthernet0/20'?[0m,
+                                     ?[0m'GigabitEthernet0/21'?[0m,
+                                     ?[0m'GigabitEthernet0/22'?[0m,
+                                     ?[0m'GigabitEthernet0/23'?[0m,
+                                     ?[0m'GigabitEthernet0/24'?[0m,
+                                     ?[0m'GigabitEthernet0/25'?[0m,
+                                     ?[0m'GigabitEthernet0/26'?[0m]?[0m,
+                 ?[0m'model'?[0m: ?[0m'WS-C2960S-24TS-S'?[0m,
+                 ?[0m'os_version'?[0m: ?[0m'C2960S Software (C2960S-UNIVERSALK9-M), '?[0m
+                               ?[0m'Version 15.2(2)E3, RELEASE SOFTWARE (fc3)'?[0m,
+                 ?[0m'serial_number'?[0m: ?[0m'FOC1709W1DT'?[0m,
+                 ?[0m'uptime'?[0m: ?[0m52440?[0m,
+                 ?[0m'vendor'?[0m: ?[0m'Cisco'?[0m}?[0m}?[0m
+?[0m?[1m?[32m^^^^ END napalm_get ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^?[0m
+?[0m?[1m?[34m* eu-med-as01 ** changed : False ***********************************************?[0m
+?[0m?[1m?[32mvvvv napalm_get ** changed : False vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv INFO?[0m
+?[0m{?[0m ?[0m'get_facts'?[0m: ?[0m{?[0m ?[0m'fqdn'?[0m: ?[0m'eu-med-sw01.wp.comcast.net'?[0m,
+                 ?[0m'hostname'?[0m: ?[0m'eu-med-sw01'?[0m,
+                 ?[0m'interface_list'?[0m: ?[0m[?[0m ?[0m?[0m'Vlan1'?[0m,
+                                     ?[0m'GigabitEthernet0/0'?[0m,
+                                     ?[0m'GigabitEthernet1/0/1'?[0m,
+                                     ?[0m'GigabitEthernet1/0/2'?[0m,
+                                     ?[0m'GigabitEthernet1/0/3'?[0m,
+                                     ?[0m'GigabitEthernet1/0/4'?[0m,
+                                     ?[0m'GigabitEthernet1/0/5'?[0m,
+                                     ?[0m'GigabitEthernet1/0/6'?[0m,
+                                     ?[0m'GigabitEthernet1/0/7'?[0m,
+                                     ?[0m'GigabitEthernet1/0/8'?[0m,
+                                     ?[0m'GigabitEthernet1/0/9'?[0m,
+                                     ?[0m'GigabitEthernet1/0/10'?[0m,
+                                     ?[0m'GigabitEthernet1/0/11'?[0m,
+                                     ?[0m'GigabitEthernet1/0/12'?[0m,
+                                     ?[0m'GigabitEthernet1/0/13'?[0m,
+                                     ?[0m'GigabitEthernet1/0/14'?[0m,
+                                     ?[0m'GigabitEthernet1/0/15'?[0m,
+                                     ?[0m'GigabitEthernet1/0/16'?[0m,
+                                     ?[0m'GigabitEthernet1/0/17'?[0m,
+                                     ?[0m'GigabitEthernet1/0/18'?[0m,
+                                     ?[0m'GigabitEthernet1/0/19'?[0m,
+                                     ?[0m'GigabitEthernet1/0/20'?[0m,
+                                     ?[0m'GigabitEthernet1/0/21'?[0m,
+                                     ?[0m'GigabitEthernet1/0/22'?[0m,
+                                     ?[0m'GigabitEthernet1/0/23'?[0m,
+                                     ?[0m'GigabitEthernet1/0/24'?[0m,
+                                     ?[0m'GigabitEthernet1/1/1'?[0m,
+                                     ?[0m'GigabitEthernet1/1/2'?[0m,
+                                     ?[0m'GigabitEthernet1/1/3'?[0m,
+                                     ?[0m'GigabitEthernet1/1/4'?[0m]?[0m,
+                 ?[0m'model'?[0m: ?[0m'WS-C3650-24TS'?[0m,
+                 ?[0m'os_version'?[0m: ?[0m'IOS-XE Software, Catalyst L3 Switch Software '?[0m
+                               ?[0m'(CAT3K_CAA-UNIVERSALK9-M), Version 03.06.06E '?[0m
+                               ?[0m'RELEASE SOFTWARE (fc1)'?[0m,
+                 ?[0m'serial_number'?[0m: ?[0m'FDO1821Q100'?[0m,
+                 ?[0m'uptime'?[0m: ?[0m58140?[0m,
+                 ?[0m'vendor'?[0m: ?[0m'Cisco'?[0m}?[0m}?[0m
+?[0m?[1m?[32m^^^^ END napalm_get ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^?[0m
+?[0m
+(fire-brigade3) D:\Dropbox (Indigo Wire Networks)\scripts\brigade\fire-brigade3>
+
+```
